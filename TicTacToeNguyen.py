@@ -1,5 +1,7 @@
+#Dies ist ein Tic Tac Toe spiel von mir programmiert für die Vorlesung Moderne Softwareentwicklung
 feld = [" "," "," "," "," "," "," "," "," "]
 spieler = 1
+
 
 def feld_ausgeben():
     print ("|" + feld[0] + "|" + feld[1] + "|" + feld[2]+ "|")
@@ -13,14 +15,14 @@ def feld_zuruecksetzen():
         i += 1
 
 def spieler_gewonnen():
-    print("Gewonnen!")
+    print("Gewonnen !")
     print("Druecken Sie Enter um eine neues Spiel zu starten")
     input()
     feld_zuruecksetzen()
     feld_ausgeben()  
 
 def spieler_unentschieden():  
-    print("Unentschieden!")
+    print("Unentschieden !")
     print("Druecken Sie Enter um eine neues Spiel zu starten")
     input()
     feld_zuruecksetzen()
